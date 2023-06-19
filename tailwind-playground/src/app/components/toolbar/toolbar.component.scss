@@ -1,0 +1,38 @@
+.toolbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+  border: 1px solid black;
+
+  &-label {
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    opacity: 0.6;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .red {
+    border: 1px solid crimson; // #DC143C
+    background-color: crimson;
+  }
+
+  .blue {
+    border: 1px solid deepskyblue; // #00BFFF
+    background-color: deepskyblue;
+  }
+
+  .green {
+    border: 1px solid green; // #008000
+    background-color: green;
+  }
+}
