@@ -7,7 +7,6 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { RedComponent } from './components/red/red.component';
 import { BlueComponent } from './components/blue/blue.component';
 import { GreenComponent } from './components/green/green.component';
-import { SolutionComponent } from './components/solution/solution.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +15,6 @@ import { SolutionComponent } from './components/solution/solution.component';
     RedComponent,
     BlueComponent,
     GreenComponent,
-    SolutionComponent
   ],
   imports: [
     BrowserModule,
