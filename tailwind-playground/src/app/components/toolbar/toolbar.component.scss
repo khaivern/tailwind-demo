@@ -20,19 +20,82 @@
       opacity: 1;
     }
   }
-
-  .red {
-    border: 1px solid crimson; // #DC143C
-    background-color: crimson;
-  }
-
-  .blue {
-    border: 1px solid deepskyblue; // #00BFFF
-    background-color: deepskyblue;
-  }
-
-  .green {
-    border: 1px solid green; // #008000
-    background-color: green;
-  }
 }
+
+.red {
+  border: 1px solid crimson; // #DC143C
+  background-color: crimson;
+}
+
+.blue {
+  border: 1px solid deepskyblue; // #00BFFF
+  background-color: deepskyblue;
+}
+
+.green {
+  border: 1px solid green; // #008000
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Sample Solution
+// .toolbar-tailwind {
+//   @apply flex flex-row justify-between items-center py-2 px-6 border border-black;
+// }
+
+// .toolbar-label-tailwind {
+//  @apply text-white py-1 px-2 rounded-sm opacity-60 cursor-pointer transition-all hover:opacity-100;
+// }
